@@ -36,15 +36,15 @@ h6.subtitle {
   background-color: #eeeeee;
 }
 
-.type-Treasure {
+.type-Treasure, .type-Treasure-Prize {
   background-color: #ffff99;
 }
 
-.type-Victory, .type-Action-Victory, .type-Action-Attack-Knight-Victory, .type-Action-Reserve-Victory {
+.type-Victory, .type-Action-Victory, .type-Action-Attack-Knight-Victory, .type-Action-Reserve-Victory, .type-Treasure-Victory {
   background-color: #b3e6b3;
 }
 
-.type-Action-Duration, .type-Action-Attack-Duration {
+.type-Action-Duration, .type-Action-Attack-Duration, .type-Action-Duration-Reaction {
   background-color: #ffc299;
 }
 
@@ -52,7 +52,7 @@ h6.subtitle {
   background-color: #99ccff;
 }
 
-.type-Action-Reserve {
+.type-Action-Reserve, .type-Treasure-Reserve {
   background-color: #ffffe6;
 }
 /*# sourceMappingURL=index.css.map */
