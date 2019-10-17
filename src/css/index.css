@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+
+.card {
+  width: 400px;
+  margin: 2px;
+}
+
+h6.subtitle {
+  margin: 0.5em;
+}
+
+.small-text {
+  font-size: 80%;
+}
+
+.type-Action, .type-Action-Attack, .type-Action-Attack-Knight, .type-Action-Traveller, .type-Action-Ruins, .type-Action-Attack-Looter, .type-Action-Attack-Prize {
+  background-color: #eeeeee;
+}
+
+.type-Treasure {
+  background-color: #ffff99;
+}
+
+.type-Victory, .type-Action-Victory, .type-Action-Attack-Knight-Victory, .type-Action-Reserve-Victory {
+  background-color: #b3e6b3;
+}
+
+.type-Action-Duration, .type-Action-Attack-Duration {
+  background-color: #ffc299;
+}
+
+.type-Reaction-Shelter, .type-Action-Reaction {
+  background-color: #99ccff;
+}
+
+.type-Action-Reserve {
+  background-color: #ffffe6;
+}
+/*# sourceMappingURL=index.css.map */
